@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/leandro/Área de Trabalho/DESAFIOS-SUPERA/DESAFIO_1/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+589720654.index
