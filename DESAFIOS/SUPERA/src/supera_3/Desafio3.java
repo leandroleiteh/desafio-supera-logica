@@ -21,19 +21,15 @@ public class Desafio3 {
             arr[i] = sc.nextInt();
         }
         int count = 0;
-        int saber;
         for (int i = 0; i < n; i++) {
-            for (int j = 1 + 1; j < n; j++) {
-                if (arr[i] - arr[j] == k) {
-                    saber = arr[i] - arr[j];
-                    System.out.println(saber);
+            for (int j = i + 1; j < n; j++) {
+                if (Math.abs(arr[i] - arr[j]) == k) {
                     count++;
                 }
             }
         }
 
         System.out.println(count);
-
         sc.close();
 
     }
