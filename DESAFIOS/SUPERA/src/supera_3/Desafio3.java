@@ -20,13 +20,19 @@ public class Desafio3 {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
-        System.out.println(Arrays.toString(arr));
-
-        for (int ar : arr) {
-            System.out.println(ar);
+        int count = 0;
+        int saber;
+        for (int i = 0; i < n; i++) {
+            for (int j = 1 + 1; j < n; j++) {
+                if (arr[i] - arr[j] == k) {
+                    saber = arr[i] - arr[j];
+                    System.out.println(saber);
+                    count++;
+                }
+            }
         }
 
+        System.out.println(count);
 
         sc.close();
 
